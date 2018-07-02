@@ -1,0 +1,80 @@
+/******GENERAL****//
+.wrapper {
+  margin-right: auto; /* 1 */
+  margin-left: auto; /* 1 */
+
+  max-width: 98%; /* 2 */
+
+  padding-right: 10px; /* 3 */
+  padding-left: 10px; /* 3 */
+}
+
+.space-between{
+  padding-bottom: 100px;
+}
+
+.page-title{
+  font-size: 1.4rem;
+}
+
+.card-description{
+  padding-top: 20px;
+}
+
+.space-between-top{
+  padding-bottom: 30px;
+}
+
+/****HEADER****/
+.header-logo{
+  padding-bottom: 15px;
+}
+
+.about-desc{
+  text-align: justify;
+}
+
+#Logo{
+  padding-bottom: 15px;
+}
+
+/***HOME***/
+
+.square{
+    text-align: center;
+    background-color: #A4A4A4;
+    height: 130px;
+}
+
+/***FOOTER***/
+
+footer{
+  height: 50px !important;
+  margin: 0 !important;
+}
+
+/****OVERRIDES***/
+
+.navbar-item, .navbar-link {
+    padding: 0.5rem 1.75rem !important;
+}
+.card-name{
+  margin: 0 !important;
+  font-size: 1.2rem;
+  color: black;
+}
+.card-title{
+  margin: 0 !important;
+}
+.hero.is-info .title {
+    color: black !important;
+}
+.tabs li {
+    color: black !important;
+}
+.hero .tabs ul {
+    background: white !important;
+}
+.tabs a {
+    padding: .5em 3em !important;
+}
